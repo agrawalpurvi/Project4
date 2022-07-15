@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<!-- saved from url=(0102)https://www.vectorstock.com/royalty-free-vector/swirling-snow-on-black-background-wave-vector-11574000 -->
+<html lang="en" class="webp js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script src="./background.4_files/paddle.js.download" type="text/javascript"></script>
+	<link rel="preconnect" href="https://cdn.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn.vectorstock.com/">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" src="./background.4_files/02e09611df"></script><script src="./background.4_files/nr-1216.min.js.download"></script><script type="text/javascript" async="" src="./background.4_files/f.txt" nonce="PbQf4G3XOrvQdKiZ8ObslMctPL0zrJaAwEQ3YDqG8Wo="></script><script type="text/javascript" async="" src="./background.4_files/analytics.js.download" nonce="PbQf4G3XOrvQdKiZ8ObslMctPL0zrJaAwEQ3YDqG8Wo="></script><script type="text/javascript" async="" src="./background.4_files/js" nonce="PbQf4G3XOrvQdKiZ8ObslMctPL0zrJaAwEQ3YDqG8Wo="></script><script type="text/javascript" async="" src="./background.4_files/js(1)" nonce="PbQf4G3XOrvQdKiZ8ObslMctPL0zrJaAwEQ3YDqG8Wo="></script><script type="text/javascript" nonce="PbQf4G3XOrvQdKiZ8ObslMctPL0zrJaAwEQ3YDqG8Wo=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf62cf0c998528a">
+	<meta name="csrf-value" content="2012d8a18a46a8f5ada6fdec8f7a61dc">
+	
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="shortcut icon" href="https://www.vectorstock.com/royalty-free-vector/null" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+
+	<title>Swirling snow on black background wave Royalty Free Vector</title>
+	<meta name="description" content="Swirling snow on black background. Blizzard background. Wave of snowflackes. Magic glitter background. Vector christmas background. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/swirling-snow-on-black-background-wave-vector-11574000">
+	<meta property="og:title" content="Swirling snow on black background wave vector image on VectorStock">
+	<meta property="og:description" content="Swirling snow on black background. Blizzard background. Wave of snowflackes. Magic glitter background. Vector christmas background. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+	<meta property="og:image" content="https://cdn1.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+	<meta property="og:image:url" content="https://cdn1.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+	<meta property="og:image:secure_url" content="https://cdn1.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/swirling-snow-on-black-background-wave-vector-11574000">
+	<meta name="twitter:title" content="Swirling snow on black background wave vector image">
+	<meta name="twitter:description" content="Swirling snow on black background. Blizzard background. Wave of snowflackes. Magic glitter background. Vector christmas background">
+	<meta name="twitter:image" content="https://cdn1.vectorstock.com/i/thumb-large/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/swirling-snow-on-black-background-wave-vector-11574000">
+
+	<link rel="stylesheet" type="text/css" href="./background.4_files/common1657585736.min.css">
+	<link rel="stylesheet" type="text/css" href="./background.4_files/common-payment1657585736.min.css">
+	<link rel="stylesheet" type="text/css" href="./background.4_files/vector1657585736.min.css">
+	<script async="" src="./background.4_files/js(2)"></script>
+	<script src="./background.4_files/common1657585736.min.js.download"></script>
+	<script src="./background.4_files/common-payment-paddle1657585736.min.js.download"></script>
+	<script src="./background.4_files/vector1657585736.min.js.download"></script>
+	<link rel="preload" href="https://cdn.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.webp" as="image">
+<meta http-equiv="origin-trial" content="A9wkrvp9y21k30U9lU7MJMjBj4USjLrGwV+Z8zO3J3ZBH139DOnCv3XLK2Ii40S94HG1SZ/Zeg2GSHOD3wlWngYAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="./background.4_files/f(1).txt" nonce="PbQf4G3XOrvQdKiZ8ObslMctPL0zrJaAwEQ3YDqG8Wo="></script><link rel="stylesheet" type="text/css" href="./background.4_files/animate.css" media="all"><link rel="stylesheet" type="text/css" href="./background.4_files/paddle.css" media="all"></head>
+<body>
+
+<!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search…" maxlength="50" autofocus="">
+								<button type="button" data-action="clear">×</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					<div class="suggestions"><div></div></div></fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="https://www.vectorstock.com/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+		<nav id="searchrelated"></nav>	
+
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="https://www.vectorstock.com/signup">Sign Up</a></li>
+							<li data-action="login"><a href="https://www.vectorstock.com/?login=1">Login…</a></li>
+							<li><a href="https://www.vectorstock.com/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="https://www.vectorstock.com/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="https://www.vectorstock.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Log In</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We're the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you're a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="https://www.vectorstock.com/signup">Sign up now, it’s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="https://www.vectorstock.com/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2" maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Log In</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="https://www.vectorstock.com/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="https://www.vectorstock.com/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+				
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset" style="min-height: 732px; max-width: 544px;">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1">
+					</li>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors/background-vectors">
+							<span itemprop="name">Background Vectors</span>
+						</a>
+						<meta itemprop="position" content="2">
+					</li>
+				</ol>
+
+				<h1>Swirling snow on black background wave vector&nbsp;image</h1>
+
+				<figure style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn1.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.webp">
+							<source type="image/jpeg" srcset="https://cdn1.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+							<img src="./background.4_files/swirling-snow-on-black-background-wave-vector-11574000.jpg" importance="high" title="Swirling snow on black background wave vector image" alt="Swirling snow on black background wave">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="11574000">
+					<input type="hidden" id="vector_title" value="Swirling snow on black background wave">
+					<input type="hidden" id="vector_description" value="Swirling snow on black background. Blizzard background. Wave of snowflackes. Magic glitter background. Vector christmas background. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/swirling-snow-on-black-background-wave-vector-11574000">
+					<input type="hidden" id="vector_media" value="https://cdn1.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="Airindizain">
+					<input type="hidden" id="account_user" value="0">
+
+					<input type="hidden" id="vector_transparent_png" value="0">
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="https://www.vectorstock.com/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">For Print, Advertising, Design</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">For Print on Demand &amp; Resale</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked">
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image" checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69¢</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">New Option!</span><a href="https://www.vectorstock.com/faq/members/what-is-hire-a-designer">What is this?</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>$</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We’ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn1.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.webp">
+							<source type="image/jpeg" srcset="https://cdn1.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+							<img src="./background.4_files/swirling-snow-on-black-background-wave-vector-11574000.jpg" importance="high" title="Swirling snow on black background wave vector image" alt="Swirling snow on black background wave">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<ul>
+								<li><button type="button" data-action="pinterest"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"></path></svg></span><span class="label">Save to Pinterest</span></button></li>
+								<li><button type="button" data-action="facebook"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"></path></svg></span><span class="label">Post to Facebook</span></button></li>
+								<li><button type="button" data-action="twitter"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"></path></svg></span><span class="label">Post to Twitter</span></button></li>
+							</ul>
+							<ul>
+								<li><button type="button" data-action="email"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M24.37,2.25c-0.07,0-0.15,0.01-0.22,0.04l-2.75,1L0.24,12.14c-0.3,0.13-0.33,0.54-0.05,0.71l3.94,2.39l0.99,0.6l1.94,5.58c0.05,0.14,0.25,0.1,0.25-0.04l0.03-4.19v-0.05l8.87-7.49c0.15-0.13,0.37-0.12,0.52,0.01l0,0c0.17,0.15,0.17,0.42,0.01,0.58L8.85,18v0.18l7.53,4.52c0.21,0.13,0.48,0.04,0.57-0.19l7.89-19.11l0.11-0.28C25.13,2.68,24.8,2.25,24.37,2.25z"></path></svg></span><span class="label">Send by Email</span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>11574000</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>RGB</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Airindizain" rel="nofollow">Airindizain</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">♥</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope="">
+					<meta itemprop="contentUrl" content="https://cdn1.vectorstock.com/i/1000x1000/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn1.vectorstock.com/i/thumb-large/40/00/swirling-snow-on-black-background-wave-vector-11574000.jpg">
+					<meta itemprop="name" content="Swirling snow on black background wave">
+					<meta itemprop="description" content="Swirling snow on black background. Blizzard background. Wave of snowflackes. Magic glitter background. Vector christmas background. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images. vector image">
+					<meta itemprop="author" content="Airindizain">
+					<meta itemprop="datePublished" content="2016-11-09">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/swirling-snow-on-black-background-wave-vector-11574000">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+			
+		</section>
+
+
+		<section id="vs-related">
+						<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/86/66/snowflakes-twisted-in-vortex-vector-20868666.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/snowflakes-twisted-in-vortex-vector-20868666" title="snowflakes twisted in vortex vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/86/66/snowflakes-twisted-in-vortex-vector-20868666.jpg" title="snowflakes twisted in vortex" alt="snowflakes twisted in vortex vector image"></noscript><img src="./background.4_files/snowflakes-twisted-in-vortex-vector-20868666.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/63/09/ethnic-background-tribal-seamless-pattern-vector-13926309.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/ethnic-background-tribal-seamless-pattern-vector-13926309" title="ethnic background tribal seamless pattern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/63/09/ethnic-background-tribal-seamless-pattern-vector-13926309.jpg" title="ethnic background tribal seamless pattern" alt="ethnic background tribal seamless pattern vector image"></noscript><img src="./background.4_files/ethnic-background-tribal-seamless-pattern-vector-13926309.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/99/02/blue-winter-background-with-hand-drawn-snowflakes-vector-27379902.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/blue-winter-background-with-hand-drawn-snowflakes-vector-27379902" title="blue winter background with hand drawn snowflakes vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/99/02/blue-winter-background-with-hand-drawn-snowflakes-vector-27379902.jpg" title="blue winter background with hand drawn snowflakes" alt="blue winter background with hand drawn snowflakes vector image"></noscript><img src="./background.4_files/blue-winter-background-with-hand-drawn-snowflakes-vector-27379902.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/43/65/snow-flake-wind-winter-frozen-elements-with-star-vector-42984365.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/snow-flake-wind-winter-frozen-elements-with-star-vector-42984365" title="snow flake wind winter frozen elements with star vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/43/65/snow-flake-wind-winter-frozen-elements-with-star-vector-42984365.jpg" title="snow flake wind winter frozen elements with star" alt="snow flake wind winter frozen elements with star vector image"></noscript><img src="./background.4_files/snow-flake-wind-winter-frozen-elements-with-star-vector-42984365.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/69/71/snowflake-icon-set-black-wave-snowflakes-line-vector-40076971.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/snowflake-icon-set-black-wave-snowflakes-line-vector-40076971" title="snowflake icon set black wave snowflakes line vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/69/71/snowflake-icon-set-black-wave-snowflakes-line-vector-40076971.jpg" title="snowflake icon set black wave snowflakes line" alt="snowflake icon set black wave snowflakes line vector image"></noscript><img src="./background.4_files/snowflake-icon-set-black-wave-snowflakes-line-vector-40076971.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/79/03/white-snowflakes-trail-snowfall-on-blue-vector-23107903.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/white-snowflakes-trail-snowfall-on-blue-vector-23107903" title="white snowflakes trail snowfall on blue vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/79/03/white-snowflakes-trail-snowfall-on-blue-vector-23107903.jpg" title="white snowflakes trail snowfall on blue" alt="white snowflakes trail snowfall on blue vector image"></noscript><img src="./background.4_files/white-snowflakes-trail-snowfall-on-blue-vector-23107903.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/89/05/merry-christmas-and-happy-new-yearuniversal-vector-23118905.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/merry-christmas-and-happy-new-yearuniversal-vector-23118905" title="merry christmas and happy new yearuniversal vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/89/05/merry-christmas-and-happy-new-yearuniversal-vector-23118905.jpg" title="merry christmas and happy new yearuniversal" alt="merry christmas and happy new yearuniversal vector image"></noscript><img src="./background.4_files/merry-christmas-and-happy-new-yearuniversal-vector-23118905.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/07/59/futuristic-christmas-card-vector-3240759.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/futuristic-christmas-card-vector-3240759" title="futuristic christmas card vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/07/59/futuristic-christmas-card-vector-3240759.jpg" title="futuristic christmas card" alt="futuristic christmas card vector image"></noscript><img src="./background.4_files/futuristic-christmas-card-vector-3240759.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/34/92/swirl-gold-and-silver-snowflakes-vector-27373492.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/swirl-gold-and-silver-snowflakes-vector-27373492" title="swirl gold and silver snowflakes vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/34/92/swirl-gold-and-silver-snowflakes-vector-27373492.jpg" title="swirl gold and silver snowflakes" alt="swirl gold and silver snowflakes vector image"></noscript><img src="./background.4_files/swirl-gold-and-silver-snowflakes-vector-27373492.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/28/14/christmas-tree-glowing-and-sparkling-effect-vector-25472814.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/christmas-tree-glowing-and-sparkling-effect-vector-25472814" title="christmas tree glowing and sparkling effect vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/28/14/christmas-tree-glowing-and-sparkling-effect-vector-25472814.jpg" title="christmas tree glowing and sparkling effect" alt="christmas tree glowing and sparkling effect vector image"></noscript><img src="./background.4_files/christmas-tree-glowing-and-sparkling-effect-vector-25472814.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/44/29/merry-christmas-design-postcard-vector-22684429.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/merry-christmas-design-postcard-vector-22684429" title="merry christmas design postcard vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/44/29/merry-christmas-design-postcard-vector-22684429.jpg" title="merry christmas design postcard" alt="merry christmas design postcard vector image"></noscript><img src="./background.4_files/merry-christmas-design-postcard-vector-22684429.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/18/97/bright-new-year-and-christmas-card-template-eps-10-vector-12151897.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/bright-new-year-and-christmas-card-template-eps-10-vector-12151897" title="bright new year and christmas card template eps 10 vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/18/97/bright-new-year-and-christmas-card-template-eps-10-vector-12151897.jpg" title="bright new year and christmas card template eps 10" alt="bright new year and christmas card template eps 10 vector image"></noscript><img src="./background.4_files/bright-new-year-and-christmas-card-template-eps-10-vector-12151897.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/76/38/snow-and-wind-swirl-set-winter-glitter-vector-34057638.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/snow-and-wind-swirl-set-winter-glitter-vector-34057638" title="snow and wind swirl set winter glitter vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/76/38/snow-and-wind-swirl-set-winter-glitter-vector-34057638.jpg" title="snow and wind swirl set winter glitter" alt="snow and wind swirl set winter glitter vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/58/10/sparkling-christmas-tree-made-of-wave-flow-vector-23185810.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/sparkling-christmas-tree-made-of-wave-flow-vector-23185810" title="sparkling christmas tree made of wave flow vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/58/10/sparkling-christmas-tree-made-of-wave-flow-vector-23185810.jpg" title="sparkling christmas tree made of wave flow" alt="sparkling christmas tree made of wave flow vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/12/57/snowed-border-frame-christmas-holiday-snow-clear-vector-22351257.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/snowed-border-frame-christmas-holiday-snow-clear-vector-22351257" title="snowed border frame christmas holiday snow clear vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/12/57/snowed-border-frame-christmas-holiday-snow-clear-vector-22351257.jpg" title="snowed border frame christmas holiday snow clear" alt="snowed border frame christmas holiday snow clear vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/98/29/background-with-starry-night-sky-falling-snow-vector-22789829.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/background-with-starry-night-sky-falling-snow-vector-22789829" title="background with starry night sky falling snow vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/98/29/background-with-starry-night-sky-falling-snow-vector-22789829.jpg" title="background with starry night sky falling snow" alt="background with starry night sky falling snow vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/75/73/realistic-falling-white-snow-overlay-vector-23207573.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/realistic-falling-white-snow-overlay-vector-23207573" title="realistic falling white snow overlay vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/75/73/realistic-falling-white-snow-overlay-vector-23207573.jpg" title="realistic falling white snow overlay" alt="realistic falling white snow overlay vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/18/16/weather-icons-set-on-white-background-vector-23501816.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/weather-icons-set-on-white-background-vector-23501816" title="weather icons set on white background vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/18/16/weather-icons-set-on-white-background-vector-23501816.jpg" title="weather icons set on white background" alt="weather icons set on white background vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/61/79/white-snowflakes-on-black-background-vector-6436179.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/white-snowflakes-on-black-background-vector-6436179" title="white snowflakes on black background vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/61/79/white-snowflakes-on-black-background-vector-6436179.jpg" title="white snowflakes on black background" alt="white snowflakes on black background vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/72/78/white-snowflakes-round-banner-isolated-vector-22317278.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/white-snowflakes-round-banner-isolated-vector-22317278" title="white snowflakes round banner isolated vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/72/78/white-snowflakes-round-banner-isolated-vector-22317278.jpg" title="white snowflakes round banner isolated" alt="white snowflakes round banner isolated vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="34165248" data-title="snow background blue sky at night christmas" data-src="https://cdn4.vectorstock.com/i/thumbs/52/48/snow-background-blue-sky-at-night-christmas-vector-34165248.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/snow-background-blue-sky-at-night-christmas-vector-34165248" title="snow background blue sky at night christmas vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/52/48/snow-background-blue-sky-at-night-christmas-vector-34165248.jpg" title="snow background blue sky at night christmas" alt="snow background blue sky at night christmas vector image"></noscript></a></li>
+						<li data-id="22727683" data-title="night stars sky background" data-src="https://cdn4.vectorstock.com/i/thumbs/76/83/night-stars-sky-background-vector-22727683.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/night-stars-sky-background-vector-22727683" title="night stars sky background vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/76/83/night-stars-sky-background-vector-22727683.jpg" title="night stars sky background" alt="night stars sky background vector image"></noscript></a></li>
+						<li data-id="5886579" data-title="seamless pattern of snowflakes" data-src="https://cdn5.vectorstock.com/i/thumbs/65/79/seamless-pattern-of-snowflakes-vector-5886579.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/seamless-pattern-of-snowflakes-vector-5886579" title="seamless pattern of snowflakes vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/65/79/seamless-pattern-of-snowflakes-vector-5886579.jpg" title="seamless pattern of snowflakes" alt="seamless pattern of snowflakes vector image"></noscript></a></li>
+						<li data-id="23228797" data-title="water splash texture isolated on black" data-src="https://cdn3.vectorstock.com/i/thumbs/87/97/water-splash-texture-isolated-on-black-vector-23228797.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/water-splash-texture-isolated-on-black-vector-23228797" title="water splash texture isolated on black vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/87/97/water-splash-texture-isolated-on-black-vector-23228797.jpg" title="water splash texture isolated on black" alt="water splash texture isolated on black vector image"></noscript></a></li>
+						<li data-id="32349729" data-title="thank you flag graphic old vintage trendy flag" data-src="https://cdn5.vectorstock.com/i/thumbs/97/29/thank-you-flag-graphic-old-vintage-trendy-flag-vector-32349729.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/thank-you-flag-graphic-old-vintage-trendy-flag-vector-32349729" title="thank you flag graphic old vintage trendy flag vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/97/29/thank-you-flag-graphic-old-vintage-trendy-flag-vector-32349729.jpg" title="thank you flag graphic old vintage trendy flag" alt="thank you flag graphic old vintage trendy flag vector image"></noscript></a></li>
+						<li data-id="735905" data-title="smoke seamless background" data-src="https://cdn1.vectorstock.com/i/thumbs/59/05/smoke-seamless-background-vector-735905.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/smoke-seamless-background-vector-735905" title="smoke seamless background vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/59/05/smoke-seamless-background-vector-735905.jpg" title="smoke seamless background" alt="smoke seamless background vector image"></noscript></a></li>
+						<li data-id="41920144" data-title="ukrainian-hutsul-pysanky-pattern-6" data-src="https://cdn5.vectorstock.com/i/thumbs/01/44/ukrainian-hutsul-pysanky-pattern-6-vector-41920144.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/ukrainian-hutsul-pysanky-pattern-6-vector-41920144" title="ukrainian-hutsul-pysanky-pattern-6 vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/01/44/ukrainian-hutsul-pysanky-pattern-6-vector-41920144.jpg" title="ukrainian-hutsul-pysanky-pattern-6" alt="ukrainian-hutsul-pysanky-pattern-6 vector image"></noscript></a></li>
+						<li data-id="42196978" data-title="wavy sunbeam sunlight design sticker circle" data-src="https://cdn4.vectorstock.com/i/thumbs/69/78/wavy-sunbeam-sunlight-design-sticker-circle-vector-42196978.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/wavy-sunbeam-sunlight-design-sticker-circle-vector-42196978" title="wavy sunbeam sunlight design sticker circle vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/69/78/wavy-sunbeam-sunlight-design-sticker-circle-vector-42196978.jpg" title="wavy sunbeam sunlight design sticker circle" alt="wavy sunbeam sunlight design sticker circle vector image"></noscript></a></li>
+						<li data-id="42308972" data-title="entangle stylized woodpecker" data-src="https://cdn3.vectorstock.com/i/thumbs/89/72/entangle-stylized-woodpecker-vector-42308972.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/entangle-stylized-woodpecker-vector-42308972" title="entangle stylized woodpecker vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/89/72/entangle-stylized-woodpecker-vector-42308972.jpg" title="entangle stylized woodpecker" alt="entangle stylized woodpecker vector image"></noscript></a></li>
+						<li data-id="36407983" data-title="dot stipple old art snowboard" data-src="https://cdn4.vectorstock.com/i/thumbs/79/83/dot-stipple-old-art-snowboard-vector-36407983.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/dot-stipple-old-art-snowboard-vector-36407983" title="dot stipple old art snowboard vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/79/83/dot-stipple-old-art-snowboard-vector-36407983.jpg" title="dot stipple old art snowboard" alt="dot stipple old art snowboard vector image"></noscript></a></li>
+						<li data-id="35781239" data-title="cold wind effects with white smoke and snowflakes" data-src="https://cdn5.vectorstock.com/i/thumbs/12/39/cold-wind-effects-with-white-smoke-and-snowflakes-vector-35781239.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cold-wind-effects-with-white-smoke-and-snowflakes-vector-35781239" title="cold wind effects with white smoke and snowflakes vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/12/39/cold-wind-effects-with-white-smoke-and-snowflakes-vector-35781239.jpg" title="cold wind effects with white smoke and snowflakes" alt="cold wind effects with white smoke and snowflakes vector image"></noscript></a></li>
+						<li data-id="26715977" data-title="realistic wind set on transparent background" data-src="https://cdn3.vectorstock.com/i/thumbs/59/77/realistic-wind-set-on-transparent-background-vector-26715977.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/realistic-wind-set-on-transparent-background-vector-26715977" title="realistic wind set on transparent background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/59/77/realistic-wind-set-on-transparent-background-vector-26715977.jpg" title="realistic wind set on transparent background" alt="realistic wind set on transparent background vector image"></noscript></a></li>
+						<li data-id="6698266" data-title="vortex of black comets" data-src="https://cdn2.vectorstock.com/i/thumbs/82/66/vortex-of-black-comets-vector-6698266.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/vortex-of-black-comets-vector-6698266" title="vortex of black comets vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/82/66/vortex-of-black-comets-vector-6698266.jpg" title="vortex of black comets" alt="vortex of black comets vector image"></noscript></a></li>
+						<li data-id="41413943" data-title="snowflakes christmas background" data-src="https://cdn4.vectorstock.com/i/thumbs/39/43/snowflakes-christmas-background-vector-41413943.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/snowflakes-christmas-background-vector-41413943" title="snowflakes christmas background vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/39/43/snowflakes-christmas-background-vector-41413943.jpg" title="snowflakes christmas background" alt="snowflakes christmas background vector image"></noscript></a></li>
+						<li data-id="24910635" data-title="set cartoon icons ice cream scoops" data-src="https://cdn1.vectorstock.com/i/thumbs/06/35/set-cartoon-icons-ice-cream-scoops-vector-24910635.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-cartoon-icons-ice-cream-scoops-vector-24910635" title="set cartoon icons ice cream scoops vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/06/35/set-cartoon-icons-ice-cream-scoops-vector-24910635.jpg" title="set cartoon icons ice cream scoops" alt="set cartoon icons ice cream scoops vector image"></noscript></a></li>
+						<li data-id="31696897" data-title="cute cartoon penguin on white" data-src="https://cdn3.vectorstock.com/i/thumbs/68/97/cute-cartoon-penguin-on-white-vector-31696897.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cute-cartoon-penguin-on-white-vector-31696897" title="cute cartoon penguin on white vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/68/97/cute-cartoon-penguin-on-white-vector-31696897.jpg" title="cute cartoon penguin on white" alt="cute cartoon penguin on white vector image"></noscript></a></li>
+						<li data-id="10168003" data-title="cosmic background with blue glowing vortex" data-src="https://cdn4.vectorstock.com/i/thumbs/80/03/cosmic-background-with-blue-glowing-vortex-vector-10168003.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cosmic-background-with-blue-glowing-vortex-vector-10168003" title="cosmic background with blue glowing vortex vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/80/03/cosmic-background-with-blue-glowing-vortex-vector-10168003.jpg" title="cosmic background with blue glowing vortex" alt="cosmic background with blue glowing vortex vector image"></noscript></a></li>
+						<li data-id="4672917" data-title="snow blizzard swirl winter background" data-src="https://cdn3.vectorstock.com/i/thumbs/29/17/snow-blizzard-swirl-winter-background-vector-4672917.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/snow-blizzard-swirl-winter-background-vector-4672917" title="snow blizzard swirl winter background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/29/17/snow-blizzard-swirl-winter-background-vector-4672917.jpg" title="snow blizzard swirl winter background" alt="snow blizzard swirl winter background vector image"></noscript></a></li>
+						<li data-id="21849832" data-title="glowing stars effect isolated" data-src="https://cdn3.vectorstock.com/i/thumbs/98/32/glowing-stars-effect-isolated-vector-21849832.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/glowing-stars-effect-isolated-vector-21849832" title="glowing stars effect isolated vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/98/32/glowing-stars-effect-isolated-vector-21849832.jpg" title="glowing stars effect isolated" alt="glowing stars effect isolated vector image"></noscript></a></li>
+						<li data-id="32010121" data-title="2021 new year abstract shiny color gold light" data-src="https://cdn2.vectorstock.com/i/thumbs/01/21/2021-new-year-abstract-shiny-color-gold-light-vector-32010121.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/2021-new-year-abstract-shiny-color-gold-light-vector-32010121" title="2021 new year abstract shiny color gold light vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/01/21/2021-new-year-abstract-shiny-color-gold-light-vector-32010121.jpg" title="2021 new year abstract shiny color gold light" alt="2021 new year abstract shiny color gold light vector image"></noscript></a></li>
+						<li data-id="20830300" data-title="abstract glowing magic star light effect" data-src="https://cdn1.vectorstock.com/i/thumbs/03/00/abstract-glowing-magic-star-light-effect-vector-20830300.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-glowing-magic-star-light-effect-vector-20830300" title="abstract glowing magic star light effect vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/03/00/abstract-glowing-magic-star-light-effect-vector-20830300.jpg" title="abstract glowing magic star light effect" alt="abstract glowing magic star light effect vector image"></noscript></a></li>
+						<li data-id="39965307" data-title="red christmas frame" data-src="https://cdn3.vectorstock.com/i/thumbs/53/07/red-christmas-frame-vector-39965307.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/red-christmas-frame-vector-39965307" title="red christmas frame vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/53/07/red-christmas-frame-vector-39965307.jpg" title="red christmas frame" alt="red christmas frame vector image"></noscript></a></li>
+						<li data-id="24339800" data-title="cute cheerful penguin with a funny smile" data-src="https://cdn1.vectorstock.com/i/thumbs/98/00/cute-cheerful-penguin-with-a-funny-smile-vector-24339800.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cute-cheerful-penguin-with-a-funny-smile-vector-24339800" title="cute cheerful penguin with a funny smile vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/98/00/cute-cheerful-penguin-with-a-funny-smile-vector-24339800.jpg" title="cute cheerful penguin with a funny smile" alt="cute cheerful penguin with a funny smile vector image"></noscript></a></li>
+						<li data-id="31639890" data-title="blue spotlight background" data-src="https://cdn1.vectorstock.com/i/thumbs/98/90/blue-spotlight-background-vector-31639890.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/blue-spotlight-background-vector-31639890" title="blue spotlight background vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/98/90/blue-spotlight-background-vector-31639890.jpg" title="blue spotlight background" alt="blue spotlight background vector image"></noscript></a></li>
+						<li data-id="38651226" data-title="snow winter waves" data-src="https://cdn2.vectorstock.com/i/thumbs/12/26/snow-winter-waves-vector-38651226.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/snow-winter-waves-vector-38651226" title="snow winter waves vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/12/26/snow-winter-waves-vector-38651226.jpg" title="snow winter waves" alt="snow winter waves vector image"></noscript></a></li>
+						<li data-id="4381002" data-title="gray background with twisted curves" data-src="https://cdn3.vectorstock.com/i/thumbs/10/02/gray-background-with-twisted-curves-vector-4381002.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/gray-background-with-twisted-curves-vector-4381002" title="gray background with twisted curves vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/10/02/gray-background-with-twisted-curves-vector-4381002.jpg" title="gray background with twisted curves" alt="gray background with twisted curves vector image"></noscript></a></li>
+						<li data-id="33854873" data-title="christmas retro typography quote and snowflakes" data-src="https://cdn4.vectorstock.com/i/thumbs/48/73/christmas-retro-typography-quote-and-snowflakes-vector-33854873.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/christmas-retro-typography-quote-and-snowflakes-vector-33854873" title="christmas retro typography quote and snowflakes vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/48/73/christmas-retro-typography-quote-and-snowflakes-vector-33854873.jpg" title="christmas retro typography quote and snowflakes" alt="christmas retro typography quote and snowflakes vector image"></noscript></a></li>
+						<li data-id="23270754" data-title="elegant minimal geometric dots round pattern" data-src="https://cdn5.vectorstock.com/i/thumbs/07/54/elegant-minimal-geometric-dots-round-pattern-vector-23270754.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/elegant-minimal-geometric-dots-round-pattern-vector-23270754" title="elegant minimal geometric dots round pattern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/07/54/elegant-minimal-geometric-dots-round-pattern-vector-23270754.jpg" title="elegant minimal geometric dots round pattern" alt="elegant minimal geometric dots round pattern vector image"></noscript></a></li>
+						<li data-id="32822728" data-title="cute penguin cartoon logo icon" data-src="https://cdn4.vectorstock.com/i/thumbs/27/28/cute-penguin-cartoon-logo-icon-vector-32822728.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cute-penguin-cartoon-logo-icon-vector-32822728" title="cute penguin cartoon logo icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/27/28/cute-penguin-cartoon-logo-icon-vector-32822728.jpg" title="cute penguin cartoon logo icon" alt="cute penguin cartoon logo icon vector image"></noscript></a></li>
+						<li data-id="32114663" data-title="abstract symbols and signs - seamless" data-src="https://cdn4.vectorstock.com/i/thumbs/46/63/abstract-symbols-and-signs-seamless-vector-32114663.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-symbols-and-signs-seamless-vector-32114663" title="abstract symbols and signs - seamless vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/46/63/abstract-symbols-and-signs-seamless-vector-32114663.jpg" title="abstract symbols and signs - seamless" alt="abstract symbols and signs - seamless vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-similar-to_11574000" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Airindizain" rel="nofollow">Airindizain</a></strong></h6>
+
+			<div class="gallery large">
+				<ul>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/39/86/swirling-snow-on-black-background-wave-vector-11573986.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/swirling-snow-on-black-background-wave-vector-11573986" title="swirling snow on black background wave vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/39/86/swirling-snow-on-black-background-wave-vector-11573986.jpg" title="swirling snow on black background wave" alt="swirling snow on black background wave vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/13/35/swirling-snow-on-transparent-background-wave-vector-11551335.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/swirling-snow-on-transparent-background-wave-vector-11551335" title="swirling snow on transparent background wave vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/13/35/swirling-snow-on-transparent-background-wave-vector-11551335.jpg" title="swirling snow on transparent background wave" alt="swirling snow on transparent background wave vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/13/28/swirling-snow-on-transparent-background-wave-vector-11551328.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/swirling-snow-on-transparent-background-wave-vector-11551328" title="swirling snow on transparent background wave vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/13/28/swirling-snow-on-transparent-background-wave-vector-11551328.jpg" title="swirling snow on transparent background wave" alt="swirling snow on transparent background wave vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/07/56/reindeer-and-santa-claus-vector-6520756.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/reindeer-and-santa-claus-vector-6520756" title="reindeer and santa claus vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/07/56/reindeer-and-santa-claus-vector-6520756.jpg" title="reindeer and santa claus" alt="reindeer and santa claus vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/07/86/reindeer-and-santa-claus-vector-6520786.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/reindeer-and-santa-claus-vector-6520786" title="reindeer and santa claus vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/07/86/reindeer-and-santa-claus-vector-6520786.jpg" title="reindeer and santa claus" alt="reindeer and santa claus vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/39/36/winter-frame-with-snowflakes-on-black-background-vector-11573936.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/winter-frame-with-snowflakes-on-black-background-vector-11573936" title="winter frame with snowflakes on black background vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/39/36/winter-frame-with-snowflakes-on-black-background-vector-11573936.jpg" title="winter frame with snowflakes on black background" alt="winter frame with snowflakes on black background vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/40/16/snow-on-black-background-winter-snowfall-vector-11574016.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/snow-on-black-background-winter-snowfall-vector-11574016" title="snow on black background winter snowfall vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/40/16/snow-on-black-background-winter-snowfall-vector-11574016.jpg" title="snow on black background winter snowfall" alt="snow on black background winter snowfall vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/40/21/snow-on-black-background-winter-snowfall-vector-11574021.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/snow-on-black-background-winter-snowfall-vector-11574021" title="snow on black background winter snowfall vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/40/21/snow-on-black-background-winter-snowfall-vector-11574021.jpg" title="snow on black background winter snowfall" alt="snow on black background winter snowfall vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/39/46/winter-frame-with-snowflakes-on-black-background-vector-11573946.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/winter-frame-with-snowflakes-on-black-background-vector-11573946" title="winter frame with snowflakes on black background vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/39/46/winter-frame-with-snowflakes-on-black-background-vector-11573946.jpg" title="winter frame with snowflakes on black background" alt="winter frame with snowflakes on black background vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/40/32/set-of-3d-snowflakes-on-black-background-vector-11574032.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-of-3d-snowflakes-on-black-background-vector-11574032" title="set of 3d snowflakes on black background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/40/32/set-of-3d-snowflakes-on-black-background-vector-11574032.jpg" title="set of 3d snowflakes on black background" alt="set of 3d snowflakes on black background vector image"></noscript></a></li>
+				</ul>
+			</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="11573956" data-title="winter frame with snowflakes on black background" data-src="https://cdn2.vectorstock.com/i/thumbs/39/56/winter-frame-with-snowflakes-on-black-background-vector-11573956.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/winter-frame-with-snowflakes-on-black-background-vector-11573956" title="winter frame with snowflakes on black background vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/39/56/winter-frame-with-snowflakes-on-black-background-vector-11573956.jpg" title="winter frame with snowflakes on black background" alt="winter frame with snowflakes on black background vector image vector image"></noscript></a></li>
+						<li data-id="11573965" data-title="winter frame with snowflakes on black background" data-src="https://cdn1.vectorstock.com/i/thumbs/39/65/winter-frame-with-snowflakes-on-black-background-vector-11573965.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/winter-frame-with-snowflakes-on-black-background-vector-11573965" title="winter frame with snowflakes on black background vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/39/65/winter-frame-with-snowflakes-on-black-background-vector-11573965.jpg" title="winter frame with snowflakes on black background" alt="winter frame with snowflakes on black background vector image vector image"></noscript></a></li>
+						<li data-id="11725318" data-title="set of 3d blue snowflakes on black background" data-src="https://cdn4.vectorstock.com/i/thumbs/53/18/set-of-3d-blue-snowflakes-on-black-background-vector-11725318.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-of-3d-blue-snowflakes-on-black-background-vector-11725318" title="set of 3d blue snowflakes on black background vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/53/18/set-of-3d-blue-snowflakes-on-black-background-vector-11725318.jpg" title="set of 3d blue snowflakes on black background" alt="set of 3d blue snowflakes on black background vector image vector image"></noscript></a></li>
+						<li data-id="11725321" data-title="set of 3d shiny snowflakes on black background" data-src="https://cdn2.vectorstock.com/i/thumbs/53/21/set-of-3d-shiny-snowflakes-on-black-background-vector-11725321.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-of-3d-shiny-snowflakes-on-black-background-vector-11725321" title="set of 3d shiny snowflakes on black background vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/53/21/set-of-3d-shiny-snowflakes-on-black-background-vector-11725321.jpg" title="set of 3d shiny snowflakes on black background" alt="set of 3d shiny snowflakes on black background vector image vector image"></noscript></a></li>
+						<li data-id="6520753" data-title="set of magic elements" data-src="https://cdn4.vectorstock.com/i/thumbs/07/53/set-of-magic-elements-vector-6520753.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-of-magic-elements-vector-6520753" title="set of magic elements vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/07/53/set-of-magic-elements-vector-6520753.jpg" title="set of magic elements" alt="set of magic elements vector image vector image"></noscript></a></li>
+						<li data-id="11551523" data-title="frame of ice on transparent background winter" data-src="https://cdn4.vectorstock.com/i/thumbs/15/23/frame-of-ice-on-transparent-background-winter-vector-11551523.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/frame-of-ice-on-transparent-background-winter-vector-11551523" title="frame of ice on transparent background winter vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/15/23/frame-of-ice-on-transparent-background-winter-vector-11551523.jpg" title="frame of ice on transparent background winter" alt="frame of ice on transparent background winter vector image vector image"></noscript></a></li>
+						<li data-id="6520781" data-title="reindeer and santa claus on moon background" data-src="https://cdn2.vectorstock.com/i/thumbs/07/81/reindeer-and-santa-claus-on-moon-background-vector-6520781.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/reindeer-and-santa-claus-on-moon-background-vector-6520781" title="reindeer and santa claus on moon background vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/07/81/reindeer-and-santa-claus-on-moon-background-vector-6520781.jpg" title="reindeer and santa claus on moon background" alt="reindeer and santa claus on moon background vector image vector image"></noscript></a></li>
+						<li data-id="10793812" data-title="bats with moon halloween" data-src="https://cdn3.vectorstock.com/i/thumbs/38/12/bats-with-moon-halloween-vector-10793812.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/bats-with-moon-halloween-vector-10793812" title="bats with moon halloween vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/38/12/bats-with-moon-halloween-vector-10793812.jpg" title="bats with moon halloween" alt="bats with moon halloween vector image vector image"></noscript></a></li>
+						<li data-id="6889896" data-title="frame from ice" data-src="https://cdn2.vectorstock.com/i/thumbs/98/96/frame-from-ice-vector-6889896.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/frame-from-ice-vector-6889896" title="frame from ice vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/98/96/frame-from-ice-vector-6889896.jpg" title="frame from ice" alt="frame from ice vector image vector image"></noscript></a></li>
+						<li data-id="11551716" data-title="frame of ice winter" data-src="https://cdn2.vectorstock.com/i/thumbs/17/16/frame-of-ice-winter-vector-11551716.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/frame-of-ice-winter-vector-11551716" title="frame of ice winter vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/17/16/frame-of-ice-winter-vector-11551716.jpg" title="frame of ice winter" alt="frame of ice winter vector image vector image"></noscript></a></li>
+						<li data-id="11551695" data-title="frame of ice winter" data-src="https://cdn1.vectorstock.com/i/thumbs/16/95/frame-of-ice-winter-vector-11551695.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/frame-of-ice-winter-vector-11551695" title="frame of ice winter vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/16/95/frame-of-ice-winter-vector-11551695.jpg" title="frame of ice winter" alt="frame of ice winter vector image vector image"></noscript></a></li>
+						<li data-id="11551543" data-title="frame of ice on transparent background winter" data-src="https://cdn4.vectorstock.com/i/thumbs/15/43/frame-of-ice-on-transparent-background-winter-vector-11551543.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/frame-of-ice-on-transparent-background-winter-vector-11551543" title="frame of ice on transparent background winter vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/15/43/frame-of-ice-on-transparent-background-winter-vector-11551543.jpg" title="frame of ice on transparent background winter" alt="frame of ice on transparent background winter vector image vector image"></noscript></a></li>
+						<li data-id="6520757" data-title="reindeer and santa claus on moon background" data-src="https://cdn3.vectorstock.com/i/thumbs/07/57/reindeer-and-santa-claus-on-moon-background-vector-6520757.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/reindeer-and-santa-claus-on-moon-background-vector-6520757" title="reindeer and santa claus on moon background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/07/57/reindeer-and-santa-claus-on-moon-background-vector-6520757.jpg" title="reindeer and santa claus on moon background" alt="reindeer and santa claus on moon background vector image vector image"></noscript></a></li>
+						<li data-id="6520763" data-title="reindeer and santa claus on moon background" data-src="https://cdn4.vectorstock.com/i/thumbs/07/63/reindeer-and-santa-claus-on-moon-background-vector-6520763.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/reindeer-and-santa-claus-on-moon-background-vector-6520763" title="reindeer and santa claus on moon background vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/07/63/reindeer-and-santa-claus-on-moon-background-vector-6520763.jpg" title="reindeer and santa claus on moon background" alt="reindeer and santa claus on moon background vector image vector image"></noscript></a></li>
+						<li data-id="11551643" data-title="frame of ice winter" data-src="https://cdn4.vectorstock.com/i/thumbs/16/43/frame-of-ice-winter-vector-11551643.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/frame-of-ice-winter-vector-11551643" title="frame of ice winter vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/16/43/frame-of-ice-winter-vector-11551643.jpg" title="frame of ice winter" alt="frame of ice winter vector image vector image"></noscript></a></li>
+						<li data-id="6520782" data-title="reindeer and santa claus on moon background" data-src="https://cdn3.vectorstock.com/i/thumbs/07/82/reindeer-and-santa-claus-on-moon-background-vector-6520782.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/reindeer-and-santa-claus-on-moon-background-vector-6520782" title="reindeer and santa claus on moon background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/07/82/reindeer-and-santa-claus-on-moon-background-vector-6520782.jpg" title="reindeer and santa claus on moon background" alt="reindeer and santa claus on moon background vector image vector image"></noscript></a></li>
+						<li data-id="6520769" data-title="reindeer and santa claus on moon background" data-src="https://cdn5.vectorstock.com/i/thumbs/07/69/reindeer-and-santa-claus-on-moon-background-vector-6520769.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/reindeer-and-santa-claus-on-moon-background-vector-6520769" title="reindeer and santa claus on moon background vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/07/69/reindeer-and-santa-claus-on-moon-background-vector-6520769.jpg" title="reindeer and santa claus on moon background" alt="reindeer and santa claus on moon background vector image vector image"></noscript></a></li>
+						<li data-id="6889894" data-title="frame from ice" data-src="https://cdn5.vectorstock.com/i/thumbs/98/94/frame-from-ice-vector-6889894.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/frame-from-ice-vector-6889894" title="frame from ice vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/98/94/frame-from-ice-vector-6889894.jpg" title="frame from ice" alt="frame from ice vector image vector image"></noscript></a></li>
+						<li data-id="6561280" data-title="set of magic sparkling christmas frames" data-src="https://cdn1.vectorstock.com/i/thumbs/12/80/set-of-magic-sparkling-christmas-frames-vector-6561280.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-of-magic-sparkling-christmas-frames-vector-6561280" title="set of magic sparkling christmas frames vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/12/80/set-of-magic-sparkling-christmas-frames-vector-6561280.jpg" title="set of magic sparkling christmas frames" alt="set of magic sparkling christmas frames vector image vector image"></noscript></a></li>
+						<li data-id="11551573" data-title="frame of ice winter" data-src="https://cdn4.vectorstock.com/i/thumbs/15/73/frame-of-ice-winter-vector-11551573.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/frame-of-ice-winter-vector-11551573" title="frame of ice winter vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/15/73/frame-of-ice-winter-vector-11551573.jpg" title="frame of ice winter" alt="frame of ice winter vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Airindizain" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/background-vectors">Background</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/black-vectors">Black</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/snow-vectors">Snow</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/white-vectors">White</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/sparkle-vectors">Sparkle</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/swirl-vectors">Swirl</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/wave-vectors">Wave</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/swirling-vectors">Swirling</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/star-vectors">Star</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/blizzard-vectors">Blizzard</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/glitter-vectors">Glitter</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/abstract-vectors">Abstract</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/glowing-vectors">Glowing</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/light-vectors">Light</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/snowflakes-vectors">Snowflakes</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/shine-vectors">Shine</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/trail-vectors">Trail</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/magic-vectors">Magic</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/isolated-vectors">Isolated</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/dust-vectors">Dust</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/tail-vectors">Tail</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/disco-vectors">Disco</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/spark-vectors">Spark</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/effect-vectors">Effect</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/glow-vectors">Glow</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/magical-vectors">Magical</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/glamour-vectors">Glamour</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/decoration-vectors">Decoration</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/stardust-vectors">Stardust</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/glittering-vectors">Glittering</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/" title="Home">Home</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.vectorstock.com/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="https://www.vectorstock.com/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="https://www.vectorstock.com/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="https://www.vectorstock.com/signup" title="Join Now">Join Now</a></li>
+						<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="https://www.vectorstock.com/?signup=1&amp;contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="https://www.vectorstock.com/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				© 2022. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="PbQf4G3XOrvQdKiZ8ObslMctPL0zrJaAwEQ3YDqG8Wo=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":55,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+
+
+<iframe src="./background.4_files/pixel.html" style="display: none;"></iframe></body></html>
